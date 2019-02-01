@@ -15,7 +15,6 @@ Row,Col} from 'reactstrap';
 import { SocialIcon } from 'react-social-icons';
 import AppRouter from './app.router';
 import App from '../App';
-import FeaturedPictureComponent from './featuredpictures.component';
 
 export default class Start extends Component {
 
@@ -38,19 +37,19 @@ export default class Start extends Component {
           <Collapse  navbar>
             <Nav className='ml-auto' navbar>
             <NavItem>
-                <NavLink href='/'>Startsida </NavLink>
+                <NavLink href='/'>Frontpage </NavLink>
               </NavItem>
             <NavItem>
-                <NavLink href='/Galleri/'>Galleri </NavLink>
+                <NavLink href='/Gallery/'>Gallery </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href='/Featured/'>Om Mig </NavLink>
+                <NavLink href='/About/'>About Me </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href='/KontaktaMig/'>Kontakta Mig </NavLink>
+                <NavLink href='/Contact/'>Contact Me </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href='/Mixar/'>Mixar </NavLink>
+                <NavLink href='/Mixes/'>Mixes </NavLink>
               </NavItem>
             </Nav>
           </Collapse>

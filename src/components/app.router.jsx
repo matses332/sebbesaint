@@ -11,9 +11,9 @@ const AppRouter = () => (
     <Router>
         <div>
             <Route path='/' exact component={FeaturedPicturesComponent} />
-            <Route path='/Galleri' exact component={pictureLibrary} />
-            <Route path='/Mixar' exact component={MixesComponent} />
-            <Route path='/KontaktaMig' exact component={ContactComponent}/>
+            <Route path='/Gallery' exact component={pictureLibrary} />
+            <Route path='/Mixes' exact component={MixesComponent} />
+            <Route path='/Contact' exact component={ContactComponent}/>
         </div>
     </Router>
 )

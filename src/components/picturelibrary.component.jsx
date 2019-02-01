@@ -97,122 +97,138 @@ pictureLibrary.defaultProps = {
         {
             src: "../assets/saint1.jpg",
             thumbnail: "../assets/saint1.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "X-Cruise", title: ""}],
             caption: "Bild under en spelning på X-Cruise"
         },
         {
             src: "../assets/saint2.jpg",
             thumbnail: "../assets/saint2.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "Ritz", title: ""}],
             caption: "Bild från Klubben Ritz"
         },
         {
             src: "../assets/saint4.jpg",
             thumbnail: "../assets/saint4.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "X-Cruise", title: ""}],
             caption: "Bild under en spelning på X-Cruise"
         },
         {
             src: "../assets/saint5.jpg",
             thumbnail: "../assets/saint5.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "X-Cruise", title: ""}],
             caption: "Bild under en spelning på X-Cruise"
         },
         {
             src: "../assets/saint6.jpg",
             thumbnail: "../assets/saint6.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "Okänd", title: ""}],
             caption: "Bild under en spelning"
         },
         {
             src: "../assets/saint7.jpg",
             thumbnail: "../assets/saint7.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "Okänd", title: ""}],
             caption: "Bild under en spelning"
         },
         {
             src: "../assets/saint8.jpg",
             thumbnail: "../assets/saint8.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "Okänd"}],
             caption: "Bild under en spelning"
         },
         {
             src: "../assets/saint9.jpg",
             thumbnail: "../assets/saint9.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "Okänd"}],
             caption: "Bild under en spelning"
         },
         {
             src: "../assets/saint10.jpg",
             thumbnail: "../assets/saint10.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "Okänd"}],
             caption: "Bild under en spelning"
         },
         {
             src: "../assets/saint11.jpg",
             thumbnail: "../assets/saint11.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "X-Cruise"}],
             caption: "Bild under en spelning på X-Cruise"
         },
         {
             src: "../assets/saint12.jpg",
             thumbnail: "../assets/saint12.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
-            tags: [{value: "Okänd"}],
-            caption: "Bild under en spelning"
-        },
-        {
-            src: "../assets/saint12.jpg",
-            thumbnail: "../assets/saint12.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "Okänd"}],
             caption: "Bild under en spelning"
         },
         {
             src: "../assets/saint13.jpg",
             thumbnail: "../assets/saint13.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "Okänd"}],
             caption: "Bild under en spelning"
         },
         {
             src: "../assets/saint14.jpg",
             thumbnail: "../assets/saint14.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "Okänd"}],
             caption: "Bild under en spelning"
         },
         {
             src: "../assets/saint15.jpg",
             thumbnail: "../assets/saint15.jpg",
-            thumbnailWidth: 320,
-            thumbnailHeight: 140,
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
+            tags: [{value: "Okänd"}],
+            caption: "Bild under en spelning"
+        },
+        {
+            src: "../assets/saint16.jpg",
+            thumbnail: "../assets/saint16.jpg",
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
             tags: [{value: "X-Cruise"}],
             caption: "Bild under en spelning på X-Cruise"
+        },
+        {
+            src: "../assets/saint17.jpg",
+            thumbnail: "../assets/saint17.jpg",
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
+            tags: [{value: "Okänd"}],
+            caption: "Bild under en spelning"
+        },
+        {
+            src: "../assets/saint18.jpg",
+            thumbnail: "../assets/saint18.jpg",
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
+            tags: [{value: "Okänd"}],
+            caption: "Bild under en spelning"
         }
     ]
 };

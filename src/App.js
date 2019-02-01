@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App" style={{backgroundColor: '#000000'}}>
-      <div>
+      <div style={{color: '#000000'}}>
       <StartComponent/>
       </div>
       </div>

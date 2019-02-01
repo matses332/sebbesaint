@@ -14,5 +14,17 @@
       "src1": "../assets/saint4.jpg",
       "game": "",
       "altText": "Text 3"
+    },
+    {
+      "src1": "../assets/saint15.jpg",
+      "src2": "../assets/saint12.jpg",
+      "game": "",
+      "altText": "Text 3"
+    },
+    {
+      "src1": "../assets/saint14.jpg",
+      "src2": "../assets/saint11.jpg",
+      "game": "",
+      "altText": "Text 3"
     }
   ]
