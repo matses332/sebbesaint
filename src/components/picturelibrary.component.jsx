@@ -39,9 +39,10 @@ export default class pictureLibrary extends Component {
         return (
                 <div style={{
                     display: "block",
+                    color: "black",
                     minHeight: "160px",
                     width: "100%",
-                    border: "25px ridge #00BFFF",
+                    border: "25px solid black",
                     overflow: "auto"}}>
                 <Gallery
             images={images}
@@ -94,61 +95,124 @@ const customTagStyle = {
 pictureLibrary.defaultProps = {
     images: [
         {
-            src: "https://github.com/Hextris/hextris/blob/gh-pages/images/twitter-opengraph.png?raw=true",
-            thumbnail: "https://github.com/Hextris/hextris/raw/gh-pages/images/twitter-opengraph.png",
-            thumbnailWidth: 320,
-            thumbnailHeight: 160,
-            tags: [{value: "Puzzle", title: "Hextris"}],
-            caption: "An addictive puzzle game inspired by Tetris"
-        },
-        {
-            src: "https://camo.githubusercontent.com/fcccdd4ab52e10be669d69d10a3180b212edb352/687474703a2f2f692e696d6775722e636f6d2f536c62767436352e706e67",
-            thumbnail: "https://camo.githubusercontent.com/fcccdd4ab52e10be669d69d10a3180b212edb352/687474703a2f2f692e696d6775722e636f6d2f536c62767436352e706e67",
-            thumbnailWidth: 320,
-            thumbnailHeight: 160,
-            tags: [{value: "Annoying", title: "Clumsy Bird"}],
-            caption: "A MelonJS made Flappy Bird clone"
-        },
-        {
-            src: "https://camo.githubusercontent.com/6179d979500996ba83344bc5d1ec47c0e47b5985/687474703a2f2f646176652d616e642d6d696b652e6769746875622e636f6d2f67616d652d6f66662d323031322f696d672f73706c6173682d73637265656e2e706e67",
-            thumbnail: "https://camo.githubusercontent.com/6179d979500996ba83344bc5d1ec47c0e47b5985/687474703a2f2f646176652d616e642d6d696b652e6769746875622e636f6d2f67616d652d6f66662d323031322f696d672f73706c6173682d73637265656e2e706e67",
-            thumbnailWidth: 320,
-            thumbnailHeight: 160,
-            tags: [{value: "Adventure", title: "Alge's Escapade"}],
-            caption: "Alge has been trapped in Area 51! Help him escape by moving him through the levels to the escape tube at the end. Clone your way top victory by turning the correct combination of switches on to turn off the lasers and escape to freedom."
-        },
-        {
-            src: "https://raw.githubusercontent.com/CamHenlin/ExecutiveMan/master/images/screenshot.png",
-            thumbnail: "https://raw.githubusercontent.com/CamHenlin/ExecutiveMan/master/images/execmanlogobig.png",
+            src: "../assets/saint1.jpg",
+            thumbnail: "../assets/saint1.jpg",
             thumbnailWidth: 320,
             thumbnailHeight: 140,
-            tags: [{value: "Arcade", title: "Executive Man"}],
-            caption: "A clone of Megaman written in JavaScript. The ExecutiveMan engine aims to have 100% complete feature coverage of the original MegaMan games. The only thing that is missing at this point is ladders, for one very simple reason: Ladders require extra up and down buttons which make the game very clumsy to play with touch controls."
+            tags: [{value: "X-Cruise", title: ""}],
+            caption: "Bild under en spelning på X-Cruise"
         },
         {
-            src: "https://camo.githubusercontent.com/8173e3b9e39d0554df07b70b271131ddcbf39f58/687474703a2f2f692e696d6775722e636f6d2f69357271342e706e67",
-            thumbnail: "https://camo.githubusercontent.com/e70dedac4f2d51b80440015fc0ebc6ba5a672c5f/68747470733a2f2f7261772e6769746875622e636f6d2f70657461726f762f67616d652d6f66662d323031322f6d61737465722f6172742f6c6f676f2d636c722e706e67",
+            src: "../assets/saint2.jpg",
+            thumbnail: "../assets/saint2.jpg",
             thumbnailWidth: 320,
-            thumbnailHeight: 160,
-            tags: [{value: "Farming", title: "Raging Gardens"}],
-            caption: "Collect as many carrots as possible in 3 minutes. Use the controls to move and repel opponents."
+            thumbnailHeight: 140,
+            tags: [{value: "Ritz", title: ""}],
+            caption: "Bild från Klubben Ritz"
         },
         {
-            src: "https://camo.githubusercontent.com/eaede619c56d3d0998dca00b8c540f39df7fd8fa/687474703a2f2f692e696d6775722e636f6d2f396b4d567465372e706e67",
-            thumbnail: "https://steamcdn-a.akamaihd.net/steam/apps/10/header.jpg?t=1528733245",
+            src: "../assets/saint4.jpg",
+            thumbnail: "../assets/saint4.jpg",
             thumbnailWidth: 320,
-            thumbnailHeight: 160,
-            tags: [{value: "First Person Shooter", title: "Counter-Strike JS"}],
-            caption: "Counter-Strike 1.6 implementation in TypeScript utilizing state of the art browser APIs."
+            thumbnailHeight: 140,
+            tags: [{value: "X-Cruise", title: ""}],
+            caption: "Bild under en spelning på X-Cruise"
         },
         {
-            src: "https://i.ytimg.com/vi/0BD0myegQlE/hqdefault.jpg",
-            thumbnail: "https://thumbor.forbes.com/thumbor/1280x868/https%3A%2F%2Fblogs-images.forbes.com%2Folliebarder%2Ffiles%2F2018%2F03%2Fsuper_mario_plumber_new-1200x675.jpg",
+            src: "../assets/saint5.jpg",
+            thumbnail: "../assets/saint5.jpg",
             thumbnailWidth: 320,
-            thumbnailHeight: 160,
-            tags: [{value: "Adventure"}],
-            tags: [{value: "Classic | Adventure", title: "Mario JS"}],
-            caption: "This is a clone of Infinite Mario, written in JavaScript for web browsers using HTML5."
+            thumbnailHeight: 140,
+            tags: [{value: "X-Cruise", title: ""}],
+            caption: "Bild under en spelning på X-Cruise"
+        },
+        {
+            src: "../assets/saint6.jpg",
+            thumbnail: "../assets/saint6.jpg",
+            thumbnailWidth: 320,
+            thumbnailHeight: 140,
+            tags: [{value: "Okänd", title: ""}],
+            caption: "Bild under en spelning"
+        },
+        {
+            src: "../assets/saint7.jpg",
+            thumbnail: "../assets/saint7.jpg",
+            thumbnailWidth: 320,
+            thumbnailHeight: 140,
+            tags: [{value: "Okänd", title: ""}],
+            caption: "Bild under en spelning"
+        },
+        {
+            src: "../assets/saint8.jpg",
+            thumbnail: "../assets/saint8.jpg",
+            thumbnailWidth: 320,
+            thumbnailHeight: 140,
+            tags: [{value: "Okänd"}],
+            caption: "Bild under en spelning"
+        },
+        {
+            src: "../assets/saint9.jpg",
+            thumbnail: "../assets/saint9.jpg",
+            thumbnailWidth: 320,
+            thumbnailHeight: 140,
+            tags: [{value: "Okänd"}],
+            caption: "Bild under en spelning"
+        },
+        {
+            src: "../assets/saint10.jpg",
+            thumbnail: "../assets/saint10.jpg",
+            thumbnailWidth: 320,
+            thumbnailHeight: 140,
+            tags: [{value: "Okänd"}],
+            caption: "Bild under en spelning"
+        },
+        {
+            src: "../assets/saint11.jpg",
+            thumbnail: "../assets/saint11.jpg",
+            thumbnailWidth: 320,
+            thumbnailHeight: 140,
+            tags: [{value: "X-Cruise"}],
+            caption: "Bild under en spelning på X-Cruise"
+        },
+        {
+            src: "../assets/saint12.jpg",
+            thumbnail: "../assets/saint12.jpg",
+            thumbnailWidth: 320,
+            thumbnailHeight: 140,
+            tags: [{value: "Okänd"}],
+            caption: "Bild under en spelning"
+        },
+        {
+            src: "../assets/saint12.jpg",
+            thumbnail: "../assets/saint12.jpg",
+            thumbnailWidth: 320,
+            thumbnailHeight: 140,
+            tags: [{value: "Okänd"}],
+            caption: "Bild under en spelning"
+        },
+        {
+            src: "../assets/saint13.jpg",
+            thumbnail: "../assets/saint13.jpg",
+            thumbnailWidth: 320,
+            thumbnailHeight: 140,
+            tags: [{value: "Okänd"}],
+            caption: "Bild under en spelning"
+        },
+        {
+            src: "../assets/saint14.jpg",
+            thumbnail: "../assets/saint14.jpg",
+            thumbnailWidth: 320,
+            thumbnailHeight: 140,
+            tags: [{value: "Okänd"}],
+            caption: "Bild under en spelning"
+        },
+        {
+            src: "../assets/saint15.jpg",
+            thumbnail: "../assets/saint15.jpg",
+            thumbnailWidth: 320,
+            thumbnailHeight: 140,
+            tags: [{value: "X-Cruise"}],
+            caption: "Bild under en spelning på X-Cruise"
         }
     ]
 };
