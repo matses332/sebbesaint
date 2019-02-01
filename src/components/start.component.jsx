@@ -15,6 +15,7 @@ Row,Col} from 'reactstrap';
 import { SocialIcon } from 'react-social-icons';
 import AppRouter from './app.router';
 import App from '../App';
+import FeaturedPictureComponent from './featuredpictures.component';
 
 export default class Start extends Component {
 
@@ -58,7 +59,8 @@ export default class Start extends Component {
         <br></br>
             </div>
             
-            <div style={{ background:"black", width: "100%", minHeight: "50%"}}>
+            
+            <div style={{ background:"#000000", width: "100%", minHeight: "50%"}}>
             <AppRouter/>
             </div>
             </div>

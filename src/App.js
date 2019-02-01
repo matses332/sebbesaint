@@ -7,7 +7,7 @@ import StartComponent from './components/start.component';
 class App extends Component {
   render() {
     return (
-      <div className="App" style={{backgroundColor: 'darkgrey'}}>
+      <div className="App" style={{backgroundColor: '#000000'}}>
       <div>
       <StartComponent/>
       </div>

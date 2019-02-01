@@ -4,12 +4,13 @@ import Start from './start.component';
 import pictureLibrary from './picturelibrary.component';
 import MixesComponent from './mixes.component';
 import ContactComponent from './contact.component';
+import FeaturedPicturesComponent from './featuredpictures.component';
 
 
 const AppRouter = () => (
     <Router>
         <div>
-            
+            <Route path='/' exact component={FeaturedPicturesComponent} />
             <Route path='/Galleri' exact component={pictureLibrary} />
             <Route path='/Mixar' exact component={MixesComponent} />
             <Route path='/KontaktaMig' exact component={ContactComponent}/>
