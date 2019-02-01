@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Carousel, CarouselIndicators, CarouselControl, CarouselItem } from 'reactstrap';
 import Images from './images.component';
-
+import './featuredComponent.scss';
 import ImageData from './images-mock.json';
 
 export default class featuredPicturesComponent extends Component {
