@@ -229,6 +229,15 @@ pictureLibrary.defaultProps = {
             thumbnailHeight: 120,
             tags: [{value: "Okänd"}],
             caption: "Bild under en spelning"
+        },
+        {
+            src: "../assets/saint19.jpg",
+            thumbnail: "../assets/saint19.jpg",
+            thumbnailWidth: 240,
+            thumbnailHeight: 120,
+            tags: [{value: "Okänd"}],
+            caption: "Bild under en spelning"
         }
+
     ]
 };
