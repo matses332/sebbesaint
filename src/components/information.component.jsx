@@ -11,7 +11,8 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem ,
-Row,Col} from 'reactstrap';
+Row,Col,Container} from 'reactstrap';
+
 
 
 export default class informationComponent extends Component {
@@ -19,16 +20,14 @@ export default class informationComponent extends Component {
       return (
           
           <div>
-            <Col>
-            </Col>
-            <Col>
-            </Col>
-            <Col>
-            <Row></Row>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>  
-            </Col>
+              <Container>
+	<Row>
+    </Row>
+    <Row>
+		<Col className="bytafarg" >Col 1</Col>
+		<Col>Col 2</Col>
+	</Row>
+</Container>
       </div>
       )}
   }

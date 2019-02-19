@@ -11,12 +11,17 @@ import InformationComponent from './information.component';
 const AppRouter = () => (
     <Router>
         <div>
+            <div>
             <Route path='/' exact component={FeaturedPicturesComponent} />
-            <Route path ='/' exact component={InformationComponent}/>
             <Route path='/Gallery' exact component={pictureLibrary} />
             <Route path='/Mixes' exact component={MixesComponent} />
             <Route path='/Contact' exact component={ContactComponent}/>
-        </div>
+            </div>
+            <div>
+            <Route path ='/'  exact component={InformationComponent}/> 
+            </div>
+            </div>
+        
     </Router>
 )
 
