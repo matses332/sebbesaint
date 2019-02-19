@@ -13,7 +13,7 @@ export default class PictureLibrary extends Component {
   setCustomTags(i) {
     return i.tags.map(t => {
       return (
-        <div key={t.value}>{t.title}</div>
+        <div key={t.value} style={customTagStyle}>{t.title}</div>
       );
     });
   }
@@ -29,11 +29,7 @@ export default class PictureLibrary extends Component {
       return i;
     });
 
-    return (
-        <div style={{width: "75%", flexDirection: "row"}}>
-        <Gallery images={images} enableImageSelection={false} max />
-        </div>)
-        ;
+    return <Gallery images={images} enableImageSelection={false} max />;
   }
 }
 
