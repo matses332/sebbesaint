@@ -1,33 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    Dropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem ,
-Row,Col,Container} from 'reactstrap';
+  Row,
+  Col,
+  Container
+} from "reactstrap";
 
-
-
-export default class informationComponent extends Component {
-    render () {
-      return (
-          
-          <div>
-              <Container>
-	<Row>
-    </Row>
-    <Row>
-		<Col className="bytafarg" >Col 1</Col>
-		<Col>Col 2</Col>
-	</Row>
-</Container>
-      </div>
-      )}
+export default class InformationComponent extends Component {
+  render() {
+    return (
+        <Container style={{ color: 'white'}}>
+          <Row>
+            <Col>Col 1</Col>
+            <Col>Col 2</Col>
+          </Row>
+        </Container>
+    );
   }
+}

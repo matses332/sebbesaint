@@ -3,7 +3,7 @@ import { Carousel, CarouselIndicators, CarouselControl, CarouselItem } from 'rea
 import Images from './images.component';
 import ImageData from './images-mock.json';
 
-export default class featuredPicturesComponent extends Component {
+export default class FeaturedPicturesComponent extends Component {
 
     constructor(props){
         super(props);

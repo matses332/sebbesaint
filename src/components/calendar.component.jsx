@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import Calendar from 'react-calendar';
  
-export default class calendarComponent extends Component {
+export default class CalendarComponent extends Component {
   state = {
     date: new Date(),
   }
