@@ -21,7 +21,7 @@ export default class Start extends Component {
 
     render(){
         return(
-            <div style={{ backgroundColor: "#000000", width: "100%", minHeight: "200px"}}>>
+            <div style={{ backgroundColor: "#000000", width: "100%", height: "100vh"}}>>
                 <div>
 
           <Row>
@@ -61,9 +61,9 @@ export default class Start extends Component {
             </div>
             
             
-            <div style={{ background:"#000000", width: "100%", minHeight: "50%"}}>
+            
             <AppRouter/>
-            </div>
+            
             <div>
             <informationComponent/>
             </div>
