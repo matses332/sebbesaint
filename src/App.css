@@ -23,6 +23,16 @@
   
 }
 
+.textdiv {
+  position: fixed;
+  bottom: 0;
+}
+
+.textdiv2 {
+  position: fixed;
+  right: 42%;
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
