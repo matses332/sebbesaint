@@ -17,6 +17,7 @@ import AppRouter from './app.router';
 import App from '../App';
 import informationComponent from './information.component';
 
+
 export default class Start extends Component {
 
     render(){
