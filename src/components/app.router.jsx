@@ -8,6 +8,7 @@ import FeaturedPicturesComponent from './featuredpictures.component';
 import InformationComponent from './information.component';
 import LoginPage from './adminloginpage.component';
 import LoginPageComponent from './adminloginpage.component';
+import AdminPageComponent from './adminpage.component';
 
 
 const AppRouter = () => (
@@ -18,7 +19,8 @@ const AppRouter = () => (
             <Route path='/Gallery' exact component={pictureLibrary} />
             <Route path='/Mixes' exact component={MixesComponent} />
             <Route path='/Contact' exact component={ContactComponent}/>
-            <Route path='/admin' exact component={LoginPageComponent}/>
+            <Route path='/adminlogin' exact component={LoginPageComponent}/>
+            <Route path='/admin' exact component ={AdminPageComponent}/>
             </div>
     </Router>
 )

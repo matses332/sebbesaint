@@ -16,12 +16,15 @@
   text-align: center;
   background-color: #000000;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
 }
 
-.Login {
-  
+.contact {
+position: fixed;
+text-align: left;
 }
+
+
 
 .textdiv {
   position: fixed;

@@ -11,6 +11,8 @@
     "react-facebook": "^6.0.15",
     "react-grid-gallery": "^0.5.3",
     "react-instagram-embed": "^1.5.0",
+    "react-mail-form": "^1.0.2",
+    "react-photo-gallery": "^6.3.2",
     "react-player": "^1.9.3",
     "react-protected-mailto": "^1.0.3",
     "react-router": "^4.3.1",

@@ -4,6 +4,7 @@ import {
   Col,
   Container
 } from "reactstrap";
+import { SocialIcon } from "react-social-icons";
 
 export default class InformationComponent extends Component {
   render() {
@@ -17,7 +18,7 @@ export default class InformationComponent extends Component {
             <Col></Col>
             
             <div className="textdiv2">
-            <Col>Made by Kristoffer Mattsson 2019</Col>
+            <Col>© 2019 Sebastian Saint Web by Kristoffer Mattsson </Col>
             </div>
           </Row>
         </Container>
