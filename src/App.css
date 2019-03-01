@@ -12,11 +12,34 @@
   padding-bottom: 50px;
 }
 
+.aboutme {
+  position: fixed;
+  bottom: 42%;
+  right: 60%;
+  width: 40%;
+
+}
+
+.aboutme2 {
+  position: fixed;
+  bottom: 40%;
+  right: 5%;
+  width: 40%;
+
+}
+
 .start {
   text-align: center;
   background-color: #000000;
   width: 100vw;
   height: 120vh;
+}
+
+.gallery {
+
+  background-color: #000000;
+  width: 100vw;
+  height: 300vh;
 }
 
 .contact {
