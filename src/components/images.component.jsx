@@ -3,7 +3,8 @@ import { Row, Col } from 'reactstrap';
 
 const imageStyle = {
     objectFit: "cover",
-    maxHeight: '10em',
+    maxHeight: '15em',
+    maxWidth: '30em',
 }
 
 export default class Images extends Component {
